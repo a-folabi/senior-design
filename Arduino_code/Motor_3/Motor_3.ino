@@ -1,6 +1,6 @@
 // Define pin connections & motor's steps per revolution
-const int dirPin = 7;
-const int stepPin = 6;
+const int dirPin = 6;
+const int stepPin = 7;
 const int stepsPerRevolution = 200;
 
 void setup()
