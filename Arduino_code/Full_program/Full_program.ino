@@ -3,11 +3,12 @@
   const int echoPin = A12;
   int ultra;
   const int inverterPower = A6;
+  const int BLE_power = 8;
 void setup() {
   Serial.begin(9600);
   Serial1.begin(9600);
-  pinMode(8,OUTPUT);
-  digitalWrite(8,HIGH);
+  pinMode(BLE_power,OUTPUT);
+  digitalWrite(BLE_power,HIGH);
 
   pinMode(inverterPower,OUTPUT);
   digitalWrite(inverterPower, HIGH);
